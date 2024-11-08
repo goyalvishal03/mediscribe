@@ -1,7 +1,7 @@
 // services/api.js
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://mediscribe-backend.vercel.app/';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://mediscribe-backend.vercel.app/api';
 
 export const transcriptionService = {
   async processAudio(audioBlob) {
